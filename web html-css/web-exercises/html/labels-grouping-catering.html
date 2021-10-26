@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title> Catering reservations </title>
+</head>
+
+<body>
+    <form action="./handle-upload.html">
+        <fieldset>
+            <legend>Personal info</legend>
+
+            <label for="name"> Name: </label>
+            <input type="text" id="name" max="15"><br><br>
+            <label for="surname"> Surname: </label>
+            <input type="text" id="surname" max="20"><br><br>
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email" required><br><br>
+            <label for="phone"> Phone number: </label>
+            <input type="tel" name="phone" id="phone" placeholder="06*-123-45-67"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+
+        </fieldset>
+
+        <fieldset>
+            <legend> Location </legend>
+
+            <label for="city"> City: </label>
+            <input type="text" name="city" id="city"><br><br>
+            <label for="street"> Street: </label>
+            <input type="text" name="city" id="city"><br><br>
+            <label for="street_number"> Street number: </label>
+            <input type="number" name="street_number" id="street_number">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Event info</legend>
+
+            <br>
+            <label for="event"> Event: </label>
+            <select name="event" id="event">
+                <option value="birthday"> Birthday </option>
+                <option value="wedding" selected> Wedding </option>
+                <option value="company"> Company </option>
+            </select><br><br>
+            <label for="capacity"> Number of people: </label>
+            <input type="number" name="capacity" id="capacity" placeholder="Maximum capacity 250">
+
+        </fieldset>
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <style>
+            .box {
+                width: 200px;
+                height: 200px;
+            }
+            .div1 {
+                margin-bottom: 100px;
+            }
+            .red {
+                background-color: rgb(194, 25, 25);
+            }
+            .green {
+                background-color: rgb(243, 243, 65);
+            }
+            .blue {
+                background-color: rgb(29, 29, 126);
+            }
+            .div2 {
+                position: absolute;
+            }
+            .red1 {
+                background-color: rgb(194, 25, 25);
+                z-index: 1;
+            }
+            .green1 {
+                background-color: rgb(243, 243, 65);
+                position: absolute;
+                z-index: 2;
+                top: 60px;
+                left: 60px;
+            }
+            .blue1 {
+                background-color: rgb(29, 29, 126);
+                position: absolute;
+                z-index: 3;
+                top: 120px;
+                left: 120px;
+            }
+            .div3 {
+                position: absolute;
+                top: 1100px;
+                right: 200px;
+            }
+            .red2 {
+                background-color: rgb(194, 25, 25);
+                float: right;
+                position: absolute;
+                right: 100px;
+                z-index: 3;
+            }
+            .green2 {
+                background-color: rgb(243, 243, 65);
+                float: right;
+                position: absolute;
+                top: 60px;
+                right: 160px;
+                z-index: 2;
+                
+            }
+            .blue2 {
+                background-color: rgb(29, 29, 126);
+                float: right;
+                position: absolute;
+                right: 220px;
+                top: 120px;
+                z-index: 1;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <div class="box red"></div>
+            <div class="box green"></div>
+            <div class="box blue"></div>
+        </div>
+        <div class="div2">
+            <div class="box red1"></div>
+            <div class="box green1"></div>
+            <div class="box blue1"></div>
+        </div>
+        <div class="div3">
+            <div class="box red2"></div>
+            <div class="box green2"></div>
+            <div class="box blue2"></div>
+        </div>
+
+
+    </body>
+</html>

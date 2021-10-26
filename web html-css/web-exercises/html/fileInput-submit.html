@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>File input and submit</title>
+</head>
+
+<body>
+    <h1>File input and submit</h1>
+
+    <form action="./handle-upload.html">
+        <h4>Upload image before:</h4>
+        <input type="file" name="img_before"><br>
+        <h4>Upload image after:</h4>
+        <input type="file" name="img_after"><br><br><br>
+        <textarea name="description" cols="30" rows="5">Describe your progress here</textarea><br><br>
+        <input type="submit" value="Upload images">
+    </form>
+    <hr>
+
+    <form action="./handle-upload.html">
+    <table border="2">
+        <tr>
+            <th>BEFORE</th>
+            <th>AFTER</th>
+        </tr>
+
+        <tr>
+            <td>
+                <h4>Upload image before:</h4>
+                <input type="file" name="img_before"><br>
+            </td>
+            <td>
+                <h4>Upload image after:</h4>
+                <input type="file" name="img_after"><br><br><br>
+            </td>
+        </tr>
+    </table>
+    <p><input type="submit" name="" value="Submit pics"></p>
+    </form>
+</body>
+
+</html>

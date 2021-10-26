@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dom-exercise5.css">
+    <title>Attributes</title>
+</head>
+<body>
+    
+    <h1 id="naslov"> Make red borders for required fileds with no input </h1>
+    
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label for="surname">Surname</label>
+        <input type="text" id="name"><br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" required><br><br>
+        <label for="description">Description</label>
+        <input type="text" name="" id="description"><br><br>
+    </form>
+
+    <button onclick="validateInputElements();"> Validate </button>
+    <button onclick="resetInputFields();"> Reset </button>
+    
+
+    
+
+
+    <script src="dom-exercise5.js"></script>
+</body>
+</html>

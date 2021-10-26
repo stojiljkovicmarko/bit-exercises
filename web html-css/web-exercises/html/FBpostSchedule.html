@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Facebook post schedule</title>
+</head>
+
+<body>
+    <h1>Fill in the form for your next post schedule</h1>
+    <fieldset>
+        <legend>Required information</legend>
+        <form action="./handle-upload.html">
+            <label for="postTitle">Post title: </label><br>
+            <input type="text" id="postTitle" name="postTitle" placeholder="Name your title"><br><br>
+
+            <label for="postText">Post text:</label><br>
+            <textarea name="postText" id="postText" cols="30" rows="5"
+                placeholder="Your text goes here..."></textarea><br><br>
+
+            <label for="date">Choose when to publish your post:</label><br>
+            <input type="date" name="date" id="date"><br><br>
+
+            <label for="time">Choose the time: </label><br>
+            <input type="time" name="time" id="time"><br><br>
+
+            <label for="url">The website to which to publish the post</label><br>
+            <input type="url" name="url" id="" placeholder="Type the url" required><br><br>
+
+            <label for="email">Email address</label><br>
+            <input type="email" name="email" id="email" placeholder="Your email address" autocomplete="off" required><br>
+
+            <input type="image" name="submit" src="./images/submitPNG.png" height="110">
+        </form>
+    </fieldset>
+</body>
+
+</html>

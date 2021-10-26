@@ -1,0 +1,11 @@
+.football-field {
+    width: 1024px;
+    height: 650px;
+    background-image: url("./soccer-field.png");
+}
+
+#football-player {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}

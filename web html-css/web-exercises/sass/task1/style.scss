@@ -1,0 +1,69 @@
+$bgColor: #cfcfcf;
+$mobile: 800px;
+
+
+@mixin MarginCenter {
+    margin: 0 auto;
+}
+
+@mixin BorderColor($borderColor) {
+    border-color: $borderColor;
+}
+
+@mixin FlexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin Mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}
+
+body {
+    width: 80%;
+    @include MarginCenter();
+}
+
+.p-basic {
+    @include MarginCenter();
+    @include BorderColor(black);
+    background-color: $bgColor;
+    width: 100% * 0.25;
+    padding: 10px;
+    background-color: $bgColor;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main {
+    @include FlexCenter;
+    @include Mobile {
+        flex-direction: column;
+        .p-basic {
+            width: 100%;
+        }
+    }
+}
+
+.p1 {
+    @extend .p-basic;
+    @include BorderColor(red);
+
+}
+
+.p2 {
+    @extend .p-basic;
+    @include BorderColor(green);
+}
+
+.p3 {
+    @extend .p-basic;
+    @include BorderColor(blue);
+}
+
+
+

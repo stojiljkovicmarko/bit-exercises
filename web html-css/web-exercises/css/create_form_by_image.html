@@ -1,0 +1,97 @@
+<!-- Form Elements Style
+
+Style the form until it looks like the form shown in the picture
+
+Cursor
+Set the cursor to look different when hovering over different form elements
+Use a custom image for the cursor when hovering over the submit button -->
+
+
+<!-- button:hover {
+    cursor: url(802590-201.png), auto;
+} -->
+
+
+<html>
+
+<head>
+    <style>
+        div {
+            width: 30%;
+            margin: auto;
+            background-color: whitesmoke;
+            color: rgb(87, 87, 117);
+            padding: 20px;
+            text-align: center;
+        }
+
+        hr {
+            width: 80%;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-family: sans-serif;
+            font: 50px;
+            font-weight: bold;
+            margin: 10px auto 5px auto;
+            text-align: center;
+        }
+
+        .form_title {
+            color: rgb(13, 13, 107);
+        }
+
+        .get_title {
+            color: rgb(248, 201, 46);
+        }
+
+        input {
+            width: 80%;
+            border: 1px solid rgb(138, 138, 151);
+            border-radius: 3px;
+            margin-bottom: 10px;
+            padding: 5px;
+
+        }
+
+        .labels {
+            font-family: sans-serif;
+            text-align: left;
+            font-weight: 600;
+            display: inline-block;
+            width: 80%;
+            margin-bottom: 4px;
+        }
+        
+
+        input[type=submit] {
+            color: white;
+            background-color: rgb(194, 13, 13);
+            cursor: pointer;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1><span class="form_title">Form</span><span class="get_title">Get</span></h1>
+        <hr>
+        <form action="" class="form">
+            <label for="name" class="labels">Full name</label><br>
+            <input type="text" name="name" placeholder="Full name"><br>
+            <label for="email" class="labels">Email</label><br>
+            <input type="email" name="email" placeholder="Email"><br>
+            <label for="contact" class="labels">Contact number</label><br>
+            <input type="tel" name="contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Contact number (06x-xxx-xxxx)"><br>
+            <label for="address" class="labels">Address</label><br>
+            <input type="text" name="address" placeholder="Address"><br><br>
+            <input type="submit">
+        </form>
+    </div>
+
+</body>
+
+</html>

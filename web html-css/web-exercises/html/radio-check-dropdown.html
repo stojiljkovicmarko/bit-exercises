@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Radio/Checkbox/Dropdown menu</title>
+</head>
+
+<body>
+
+    <h1>Please answer the following questions</h1>
+    <fieldset>
+        <legend>QUIZ</legend>
+    <form>
+        <h3> Question I: Where is the Eiffel tower? </h3>
+        <input type="radio" name="question1" value="Paris"> Paris, France
+        <input type="radio" name="question1" value="London"> London, UK
+        <input type="radio" name="question1" value="Rome"> Rome, Italy
+    </form>
+
+    <form action="">
+        <h3>Question II: Which fruit do you like? </h3>
+        <input type="checkbox" name="question2" value="banana"> Banana
+        <input type="checkbox" name="question2" value="kiwi"> Kiwi
+        <input type="checkbox" name="question2" value="apple"> Apple
+        <input type="checkbox" name="question2" value="mango"> Mango
+        <input type="checkbox" name="question2" value="blueberry"> Blueberry
+        <input type="checkbox" name="question2" value="raspberry"> Raspberry
+    </form>
+    <form action="">
+        <h3>Question III: Describe your dream vacation</h3>
+        <textarea name="question3" cols="40" rows="5">Write here</textarea>
+    </form>
+    <form action="">
+        <h3>Question IV: Which country/city have you visited?</h3>
+        <select name="country" size="6" multiple="multiple">
+            <option value="Spain">Spain</option>
+            <option value="Greece">Greece</option>
+            <option value="Austria">Austria</option>
+            <option value="Italy">Italy</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Netherlands">Netherlands</option>
+        </select>
+        <select name="city" size="6" multiple="multiple">
+            <option value="Madrid">Madrid</option>
+            <option value="Athens">Athens</option>
+            <option value="Vienna">Vienna</option>
+            <option value="Rome">Rome</option>
+            <option value="Stockholm">Stockholm</option>
+            <option value="Amsterdam">Amsterdam</option>
+        </select>
+    </form>
+    <form action="">
+        <h3>Question V: Select your birth date</h3>
+        <input type="number" name="day" value="1" min="1" max="31">
+        <input type="month" name="month"> <br>
+        <input type="date">
+    </form>
+</fieldset>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!-- Lists
+Markers
+Create four lists (two unordered and two ordered lists)
+The first unordered list should have circles as item markers
+The second one (unordered) should use squares as markers
+The third one (ordered) should use upper alphabetics
+The last list (ordered) should use the Roman numbers 
+
+Image Marker/Position 
+Create two additional unordered lists
+Set images as item markers for both of the lists
+Both lists should be 200px wide, and should have a lot of text in each item
+The markers in the second list should be inside a box -->
+
+<html>
+
+<head>
+    <title> List styling</title>
+    <style>
+        #first_ul {
+            list-style-type: circle;
+        }
+
+        #second_ul {
+            list-style-type: square;
+        }
+
+        #first_ol {
+            list-style-type: upper-latin;
+        }
+
+        #second_ol {
+            list-style-type: upper-roman;
+        }
+
+        #third_ul {
+            width: 200px;
+            list-style-image: url("../images/ok.png");
+        }
+
+        #fourth_ul {
+            width: 200px;
+            list-style-image: url("../images/ok.png");
+            list-style-position: inside;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="first_ul">
+        <li>Caj</li>
+        <li>Kafa</li>
+        <li>Sok</li>
+    </ul>
+    <ul id="second_ul">
+        <li>Hleb</li>
+        <li>Mleko</li>
+        <li>Med</li>
+    </ul>
+    <ol id="first_ol">
+        <li>Djokovic</li>
+        <li>Medvedev</li>
+        <li>Nadal</li>
+    </ol>
+    <ol id="second_ol">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+
+    <ul id="third_ul">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna at faucibus mollis. Curabitur
+            mattis, magna sed sollicitudin varius, felis erat commodo nunc, non tincidunt justo lorem ac diam. Cras
+            dapibus hendrerit nunc venenatis suscipit. Curabitur nec sodales nisi. Fusce tempus condimentum metus vel
+            sagittis.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna at faucibus mollis. Curabitur
+            mattis, magna sed sollicitudin varius, felis erat commodo nunc, non tincidunt justo lorem ac diam. Cras
+            dapibus hendrerit nunc venenatis suscipit. Curabitur nec sodales nisi. Fusce tempus condimentum metus vel
+            sagittis.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna at faucibus mollis. Curabitur
+            mattis, magna sed sollicitudin varius, felis erat commodo nunc, non tincidunt justo lorem ac diam. Cras
+            dapibus hendrerit nunc venenatis suscipit. Curabitur nec sodales nisi. Fusce tempus condimentum metus vel
+            sagittis.</li>
+    </ul>
+    <ul id="fourth_ul">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna at faucibus mollis. Curabitur
+            mattis, magna sed sollicitudin varius, felis erat commodo nunc, non tincidunt justo lorem ac diam. Cras
+            dapibus hendrerit nunc venenatis suscipit. Curabitur nec sodales nisi. Fusce tempus condimentum metus vel
+            sagittis.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna at faucibus mollis. Curabitur
+            mattis, magna sed sollicitudin varius, felis erat commodo nunc, non tincidunt justo lorem ac diam. Cras
+            dapibus hendrerit nunc venenatis suscipit. Curabitur nec sodales nisi. Fusce tempus condimentum metus vel
+            sagittis.</li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna at faucibus mollis. Curabitur
+            mattis, magna sed sollicitudin varius, felis erat commodo nunc, non tincidunt justo lorem ac diam. Cras
+            dapibus hendrerit nunc venenatis suscipit. Curabitur nec sodales nisi. Fusce tempus condimentum metus vel
+            sagittis.</li>
+    </ul>
+</body>
+
+</html>

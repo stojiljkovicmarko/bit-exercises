@@ -1,0 +1,21 @@
+div {
+    width: 1024px;
+    height: 650px;
+    background-image: url("./soccer-field.png");
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+}
+
+button {
+    background-color: #C0392B;
+    color: whitesmoke;
+    border: whitesmoke;
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+}
+

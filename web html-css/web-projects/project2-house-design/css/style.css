@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.buildestate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.build {
+    display: flex;
+    width: fit-content;
+    border-top: 4px solid grey;
+    border-bottom: 4px solid grey;
+    border-left: 4px solid grey;
+    font-weight: bold;
+    font-size: 40px;
+    color: orange;
+    padding-left: 5px;
+    margin: 2px;
+}
+
+.estate {
+    display: flex;
+    width: fit-content;
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: 40px;
+    color: grey;
+    align-items: center;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 6px 10px;
+    margin: 3px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.image {
+    margin: 20px 0;
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/banner3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-shape {
+    font-size: xx-large;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.image-button button {
+    background-color: rgb(28, 177, 226);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 25px;
+    border: 0;
+    letter-spacing: 3px;
+}
+
+.who {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.who h1 {
+    text-align: center;
+}
+
+.who h2 {
+    color: rgb(56, 164, 201);
+}
+
+.who p {
+    text-align: justify;
+}
+
+.who ul {
+    color: grey;
+    padding-left: 3%;
+    list-style-image: url("../images/arrow_bullet.png");
+}
+
+.who ul li {
+    margin: 10px 0;
+}
+
+.who img {
+    width: 100%;
+}
+
+.comments {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.comments h1 {
+    text-align: center;
+}
+
+.comments-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: cornflowerblue;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.comments-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.comments-img {
+    border: 1 px solid white;
+}
+
+.comments-img img {
+    border: 2px white double;
+    border-radius: 50%;
+    width: 60px;
+}
+
+.comments-rating {
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.comments-text {
+    width: 95%;
+    margin: 0 auto;
+    text-align: justify;
+    color: white;
+}
+
+.who, .comments, .contact, .send-mail {
+    margin-top: 20px;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+
+.info h3 {
+    font-weight: normal;
+}
+
+.div-info {
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 {
+    background-color: darkorchid;
+}
+
+.info1 div {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info1 img {
+    height: 30px;
+    width: 30px;
+}
+
+.info1 div p {
+    margin-left: 5px;
+}
+
+.info2 {
+    background-color: mediumseagreen;
+}
+
+.info2 h3 {
+    margin: 5px;
+}
+
+.info2 img {
+    width: 30px;
+}
+
+.info3 {
+    background-color: cadetblue;
+}
+
+.info4 {
+    background-color: pink;
+}
+
+.info4 img {
+    object-fit: contain;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.send-mail {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+.submit-button {
+    background-color: darkgoldenrod;
+    color: whitesmoke;
+    padding: 10px 25px;
+    text-align: center;
+    border: none;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 6px 10px;
+    margin: 3px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        background-image: url("../images/banner3.jpg");
+        background-size: cover;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .build-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .buildestate {
+        width: fit-content;
+    }
+
+    .estate {
+        color: whitesmoke;
+    }
+
+    nav {
+        width: fit-content;
+        margin: 0;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: smaller;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: right;
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 3px 8px;
+        margin: 3px 5px;
+    }
+
+    .image {
+        background-image: none;
+    }
+
+    .who article{
+        float: left;
+    }
+
+    .who-welcome {
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .who img {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .comments-section {
+        width: 46%;
+        float: left;
+        padding: 10px;
+    }
+
+    .div-input {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    input {
+        width: 33%;
+    }
+
+    @media screen and (min-width: 1200px) {
+        
+        .who, .comments, .contact, .send-mail {
+            margin-top: 55px;
+        }
+
+        .div-articles {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .who-welcome, .who img,
+        .who-dream-house {
+            width: 33%;
+            padding: 20px;
+        }
+
+        .div-comments {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .comments-section {
+            width: 31%;
+        }
+
+        .div-info {
+            width: 25%;
+        }
+
+    }
+
+
+}

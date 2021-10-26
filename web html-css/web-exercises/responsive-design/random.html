@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .top {
+            overflow: hidden;
+            background-color: grey;
+            width: 100%;
+        }
+
+        .top li {
+            text-decoration: none;
+            float: left;
+            padding: 4px;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        .intro {
+            margin: 0 auto;
+            display: flex;
+            max-width: 80%;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .style {
+            margin: 3px;
+            padding: 3px;
+        }
+
+        @media screen and (max-width: 576px) {
+            body {
+                background-color: tomato;
+            }
+            .intro {
+                flex-wrap: wrap;
+            }
+        }
+        @media screen and (max-width: 350px) {
+            .top li{
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <h1>Naslov</h1>
+        <nav>
+            <ul class="top">
+                <li><a href="#">Test tekst</a></li>
+                <li><a href="#">Test tekst</a></li>
+                <li><a href="#">Test tekst</a></li>
+                <li><a href="#">Test tekst</a></li>
+                <li><a href="#">Test tekst</a></li>
+                <li><a href="#">Test tekst</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <article class="style">
+                <img src="../images/300x200.png" alt="">
+                <p> naoksfnkosf aiwre onasf anf nasdof aoa noa sndfoans ofnaosndkofankaoka a fnaosdnfasd faksd nfknasdf
+                    asdfa oansdf asndfo ansdokf n</p>
+            </article>
+            <article class="style">
+                <img src="../images/300x200.png" alt="">
+                <p>naoksfnkosf aiwre onasf anf nasdof aoa noa sndfoans ofnaosndkofankaoka a fnaosdnfasd faksd nfknasdf
+                    asdfa oansdf asndfo ansdokf n</p>
+            </article>
+            <article class="style">
+                <img src="../images/300x200.png" alt="">
+                <p>naoksfnkosf aiwre onasf anf nasdof aoa noa sndfoans ofnaosndkofankaoka a fnaosdnfasd faksd nfknasdf
+                    asdfa oansdf asndfo ansdokf n</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>

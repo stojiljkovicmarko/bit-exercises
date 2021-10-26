@@ -1,0 +1,90 @@
+
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF5722; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+.display-element-block {
+    display: block;
+}
+.display-element-none {
+    display: none;
+}
+
+.error {
+    border: 3px solid red;
+    color:red;
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.form-div {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #BDBDBD;
+    padding: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    color: #212121;
+    font-size: smaller;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px;
+}
+
+.create-button {
+    margin: 0 auto;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background:#FF5722;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+.create-button:hover {
+    background: #d94b1e;
+    cursor: pointer;
+}
+
+
+select {
+    margin-top: 10px 0;
+}

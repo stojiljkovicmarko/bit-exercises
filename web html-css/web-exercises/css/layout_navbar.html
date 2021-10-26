@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            background-color: whitesmoke;
+            height: 250px;
+            width: 90%;
+            margin: auto;
+        }
+
+        nav {
+            overflow: hidden;
+            background-color: rgb(231, 215, 66);
+            padding: 5px;
+        }
+
+        li {
+            float: left;
+            list-style: none;
+            padding: 15px;
+        }
+
+        li:hover {
+            background-color: whitesmoke;
+            cursor: pointer;
+        }
+
+        ul {
+            margin: 0px;
+            font-family: sans-serif;
+        }
+
+        .home {
+            background-color: rgb(196, 195, 195);
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-li:hover .dropdown-content{
+            display: block;
+        }
+
+        .dropdown-content a {
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            display: block;
+            width: 200px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: salmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navBar" class="nav">
+            <ul class="menu">
+                <li class="home">Home</li>
+                <li>Menu 1</li>
+                <li class="dropdown-li"> Menu 2
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li>Menu 3</li>
+            </ul>
+        </nav>
+    </div>
+
+
+</body>
+
+</html>

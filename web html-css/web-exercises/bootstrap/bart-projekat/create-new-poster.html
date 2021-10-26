@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Create new most wanted poster</title>
+</head>
+<body>
+    
+    <div class="container mt-3">
+
+        <div class="mb-3">
+            <a href="./index-bart.html" class="mb-3">Back to the homepage</a>
+        </div>
+        <form action="">
+            <fieldset class="border rounded p-3 mb-3">
+                <legend>Top headline</legend>
+                <div class="form-group row">
+                    <label for="headline" class="col-md-2">Headline text: </label>
+                    <div class="col-4">
+                        <input type="text" id="headline" class="form-control">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="border p-2 mb-3">
+                <legend>Images</legend>
+                <div class="form-group row mb-2">
+                    <label for="img1" class="col-3">Image 1: </label>
+                    <div class="col-xs-2">
+                        <input type="file" id="img1" class="form-control-file">
+                    </div>
+                </div>
+                <div class="form-group row mb-2">
+                    <label for="img2" class="col-3">Image 2: </label>
+                    <div class="col-md-2">
+                        <input type="file" id="img2" class="form-control-file">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="img3" class="col-3">Image 3: </label>
+                    <div class="col-xl-2">
+                        <input type="file" id="img3" class="form-control-file">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="border p-2 mb-3">
+                <legend>Reward</legend>
+                <div class="form-group row">
+                    <label for="reward" class="col-3">Reward money</label>
+                    <div class="col-4">
+                        <input type="number" id="reward" class="form-control">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="border p-2 mb-3">
+                <legend>Description</legend>
+                <div class="form-group">
+                    <label for="alias" class="my-2">Alias:</label>
+                    <div class="col-4">
+                        <input type="text" name="" id="alias" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate" class="my-2">Birth date:</label>
+                    <div class="col-4">
+                        <input type="date" name="" id="birthdate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="hair" class="my-2"">Hair color:</label>
+                    <div class="col-4">
+                        <input type="text" name="" id="hair" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="eyes" class="my-2"">Eye color:</label>
+                    <div class="col-4">
+                        <input type="text" name="" id="eyes" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="height" class="my-2"">Height:</label>
+                    <div class="col-4">
+                        <input type="number" name="" id="height" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="weight" class="my-2"">Weight:</label>
+                    <div class="col-4">
+                        <input type="number" name="" id="weight" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="sex" class="my-2"">Sex:</label><br>
+                    <div class="col-4">
+                        <select name="" id="sex" class="form-control col-4">
+                            <option selected>Choose...</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="id-number" class="my-2"">ID number:</label>
+                    <div class="col-4">
+                        <input type="number" minlength="10000" maxlength="99999"
+                        id="id-number" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="occupation" class="my-2"">Occupation:</label>
+                    <div class="col-4">
+                        <input type="text" name="" id="alias" class="form-control">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="border p-2 mb-3">
+                <legend>Remarks</legend>
+                <div class="col-12">
+                    <textarea name="" id="remarks" rows="10" class="col-12 form-control">Remarks here</textarea>
+                </div>
+            </fieldset>
+            <fieldset class="border p-2 mb-3">
+                <legend>Caution</legend>
+                <div class="col-12">
+                    <textarea name="" id="caution" rows="10" class="col-12 form-control">Caution details here</textarea>
+                </div>
+            </fieldset>
+            
+
+
+        </form>
+
+    </div>
+
+
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

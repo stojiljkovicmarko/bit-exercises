@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-white font-weight-bold" href="#">Bit student</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white"
+                            href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white"
+                            href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white"
+                            href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header class="pt-4 bg-primary text-white text-center">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <img src="./portfolio/profile.png" alt="Profile img" class="mb-3">
+            <h1>BOOTSTRAP AND SASS</h1>
+            <p>Web developer - Graphic Artist - User design experience</p>
+
+        </div>
+
+    </header>
+
+    <!-- PORTFOLIO -->
+
+    <section class="container text-black text-center p-4" id="portfolio">
+
+        <h1 class="mb-4">PORTFOLIO</h1>
+
+        <div class="row p-2">
+            <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                <img src="./portfolio/cabin.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                <img src="./portfolio/submarine.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                <img src="./portfolio/cake.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                <img src="./portfolio/circus.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                <img src="./portfolio/game.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 my-2">
+                <img src="./portfolio/safe.png" alt="" class="img-fluid w-100 h-100">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+
+    <section class="bg-primary text-white p-4" id="about">
+        <div class="container d-flex flex-column justify-content-center">
+            <h1 class="text-center mb-4"> ABOUT </h1>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi consequuntur natus
+                        recusandae, corporis libero. Ab sit quaerat quam est soluta, voluptatum molestias quae fuga
+                        cupiditate adipisci quasi, iste debitis.
+                        Et, deleniti ex pariatur itaque labore adipisci hic laudantium iste cum amet repudiandae fugit
+                        dignissimos consequuntur nisi vel dolor debitis aliquid sapiente asperiores animi doloremque
+                        consequatur. Rerum quis minus error!</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi consequuntur natus
+                        recusandae, corporis libero. Ab sit quaerat quam est soluta, voluptatum molestias quae fuga
+                        cupiditate adipisci quasi, iste debitis.
+                        Et, deleniti ex pariatur itaque labore adipisci hic laudantium iste cum amet repudiandae fugit
+                        dignissimos consequuntur nisi vel dolor debitis aliquid sapiente asperiores animi doloremque
+                        consequatur. Rerum quis minus error!</p>
+                </div>
+            </div>
+            <button type="button" class="mx-auto btn btn-primary border border-white radius">
+                Find Out More
+            </button>
+        </div>
+
+    </section>
+
+    <!-- CONTACT ME -->
+
+    <section class="p-4" id="contact">
+        <div class="container">
+            <h1 class="text-center mb-4">CONTACT ME</h1>
+            <form action="#">
+                <div class="form-group row my-2">
+                    <div class="col-12">
+                        <input type="text" id="name" class="form-control" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group row my-2">
+                    <div class="col-12">
+                        <input type="text" id="email" class="form-control" placeholder="Email address">
+                    </div>
+                </div>
+                <div class="form-group row my-2">
+                    <div class="col-12">
+                        <input type="text" id="phone" class="form-control" placeholder="Email address">
+                    </div>
+                </div>
+                <div class="col-12 my-2">
+                    <textarea name="" id="message" rows="10" class="col-12 form-control"
+                        placeholder="Message"></textarea>
+                </div>
+                <button class="btn btn-primary tex-white">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-secondary text-white">
+        <div class="container p-5">
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4">
+                    <div class="mb-4">
+                        <h3>LOCATION</h3>
+                    </div>
+                    <div class="fs-6">
+                        <p>Centar za obrazovanje</p>
+                        <p>BIT TECHNOLOGY</p>
+                        <p>Nemanjina 4/I, Beograd</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="mb-4">
+                        <div class="mb-4">
+                            <h3>AROUND THE WEB</h3>
+                        </div>
+                        <div class="social row d-flex justify-content-center align-items-start p-3">
+                            <div class="col-3">
+                                <img src="./portfolio/facebook.png" alt="" class="img-fluid w-75">
+                            </div>
+                            <div class="col-3">
+                                <img src="./portfolio/gmail.png" alt="" class="img-fluid w-75">
+                            </div>
+                            <div class="col-3">
+                                <img src="./portfolio/twitter.png" alt="" class="img-fluid w-75">
+                            </div>
+                            <div class="col-3">
+                                <img src="./portfolio/linkedin.png" alt="" class="img-fluid w-75">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="mb-4">
+                        <h3>MORE DETAILS</h3>
+                    </div>
+                    <div class="fs-6">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, omnis. Vitae, voluptates
+                            mollitia facilis tempore dolorum quaerat assumenda a culpa amet odit molestiae modi quasi
+                            magnam
+                            repellendus laudantium unde praesentium?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendor/js/bootstrap.js"></script>
+</body>
+
+</html>

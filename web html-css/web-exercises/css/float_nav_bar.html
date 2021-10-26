@@ -1,0 +1,226 @@
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .mainDiv {
+            margin: auto;
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .div-nav-bar-image,
+        .div-main-articles {
+            width: 100%;
+        }
+
+        .navDiv {
+            background-color: salmon;
+            overflow: hidden;
+            color: white;
+        }
+
+        .navBarList {
+            display: flex;
+            float: right;
+        }
+
+        .imgDiv {
+            width: 100%;
+            height: 500px;
+            margin: 5px 0px;
+            background-image: url("../images/css-html.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navDiv ul {
+            margin: 0px;
+        }
+
+        li {
+            padding: 10px;
+            list-style: none;
+        }
+
+        .articleDiv1,
+        .articleDiv2,
+        .articleDiv3 {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        article {
+            max-width: 300px;
+            padding: 5px;
+            text-align: justify;
+        }
+
+        .vesti-div {
+            align-self: flex-start;
+            width: 300px;
+            margin: 5px;
+            padding: 5px;
+            background-color: rgb(179, 179, 25);
+        }
+
+        footer {
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            background-color: blue;
+        }
+
+        .footer-bit-student {
+            margin: auto;
+            width: 65%;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainDiv">
+        <header class="div-nav-bar-image">
+            <nav class="navDiv">
+                <ul class="navBarList">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Blog</li>
+                </ul>
+            </nav>
+            <div class="imgDiv">
+                <!-- IMAGE CSS / HTML -->
+            </div>
+        </header>
+
+        <main class="div-main-articles">
+            <section class="articleDiv1">
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+                <aside class="vesti-div">
+                    <p> Neke vesti </p>
+                    <hr>
+                    <p>Jos neke vesti </p>
+                    <hr>
+                    <p>Zatim jos nesto </p>
+                    <hr>
+                    <p>I na kraju jos nesto</p>
+                </aside>
+
+
+            </section>
+            <section class="articleDiv2">
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+            </section>
+            <section class="articleDiv3">
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+                <article>
+                    <img src="../images/300x200.png" alt="">
+                    <p>Maecenas eu odio sollicitudin, ornare erat maximus, iaculis nisl. Aenean sed mollis risus. Nullam
+                        vestibulum enim id ex sodales pulvinar. Etiam est turpis, volutpat sit amet venenatis sagittis,
+                        egestas vel felis. Aenean sed nulla tincidunt, aliquam turpis vel, tempus orci. Etiam ex orci,
+                        tempor ut eros ut, interdum congue mauris. Cras tempor ultrices ante, in ornare ante faucibus
+                        eget.
+                        Donec vulputate suscipit nibh, a sodales justo aliquam non. Donec pulvinar porta libero eu
+                        consectetur. Nullam a lorem lorem. Aenean ornare lectus vitae rhoncus placerat. Sed accumsan,
+                        nisi
+                        vitae iaculis tristique, tellus dolor sagittis tortor, vel luctus neque lacus ut diam.</p>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-bit-student">@BitStudent</div>
+    </footer>
+</body>
+
+</html>

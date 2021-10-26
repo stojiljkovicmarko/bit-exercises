@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movie Festival</title>
+</head>
+
+<body class="dark-primary-color">
+    <h1> Movie festival form </h1>
+
+
+    <!-- FIRST DIV FOR MOVIE CREATION FORM -->
+
+    <h2> Movie </h2>
+    <div id="movie-div" class="form-div">
+
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="Movie title"><br>
+        <label for="movie-length">Length (min)</label>
+        <input type="text" id="movie-length" placeholder="Movie length in minutes">
+
+        <p id="error-title" class="display-element-none"></p>
+        <p id="error-length" class="display-element-none"></p>
+
+        <select name="genre" id="genre">
+            <option value="Fantasy">Fantasy</option>
+            <option value="Science fiction">Science fiction</option>
+            <option value="Action">Action</option>
+            <option value="Drama">Drama</option>
+            <option value="Horror">Horror</option>
+        </select><br>
+
+        <button id="create-movie" class="create-button"> CREATE MOVIE </button>
+
+        <ul id="movie-ul-list">
+
+        </ul>
+
+        
+
+    </div>
+
+
+    <!-- SECOND DIV FOR PROGRAM CREATION FORM -->
+
+    <h2> Program </h2>
+    <div id="program-div" class="form-div">
+
+        <label for="program-date"> Date </label>
+        <input type="date" id="program-date">
+
+        <p id="error-date" class="display-element-none"></p>
+
+        <button id="create-program" class="create-button"> CREATE PROGRAM </button>
+
+        <ul id="program-list-ul">
+
+        </ul>
+
+        <label for="movie-list"> List of movies </label>
+        <select id="movie-list">
+            
+        </select>
+
+        <label for="program-list"> List of programs </label>
+        <select id="program-list">
+            
+        </select>
+
+        <p id="error-movie-selection" class="display-element-none"></p>
+        <p id="error-program-selection" class="display-element-none"></p>
+
+        <button id="add-movie" class="create-button"> Add movie to program </button>
+
+    </div>
+
+    <script src="./js/entities.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
